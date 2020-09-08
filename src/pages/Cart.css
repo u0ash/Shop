@@ -1,0 +1,80 @@
+.cart-container {
+  text-align: center;
+}
+
+.cart-title {
+  font-family: "Permanent Marker", cursive;
+  font-size: 40px;
+  background: linear-gradient(to right top, #004d7a, #008793, #00bf72, #a8eb12);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.cart-item {
+  margin: auto;
+  border: 2px solid white;
+  color: white;
+  padding: 15px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.cart-item.cart-header {
+  margin-bottom: 20px;
+  border: 1px solid #fc3948;
+  color: #fc3948;
+}
+
+.cart-item div {
+  /* border-left: 1px solid white; */
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.cart-item img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.cart-item .change-qty{
+  display: flex;
+}
+
+.cart-item .change-qty img{
+  width: 35px;
+  padding:10px;
+}
+
+
+.cart-header div:nth-child(1),
+.cart-item div:nth-child(1) {
+  width: 20%;
+  border-left: none;
+}
+.cart-header div:nth-child(2),
+.cart-item div:nth-child(2) {
+  width: 20%;
+}
+.cart-header div:nth-child(3),
+.cart-item div:nth-child(3) {
+  width: 15%;
+}
+.cart-header div:nth-child(4),
+.cart-item div:nth-child(4) {
+  width: 15%;
+}
+.cart-header div:nth-child(5),
+.cart-item div:nth-child(5) {
+  width: 10%;
+}
+.cart-header div:nth-child(6),
+.cart-item div:nth-child(6) {
+  width: 15%;
+}

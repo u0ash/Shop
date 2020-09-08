@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+.banner{
+    margin-top : 40px;
+    width:100%;
+    text-align: center;
+    justify-content:center;
+}
+
+.title{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 26px;
+    background : linear-gradient(to right top, #004d7a, #008793, #00bf72, #a8eb12);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner img{
+    max-width: 90%;
+}

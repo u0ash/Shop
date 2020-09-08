@@ -1,0 +1,50 @@
+{
+  "products": [
+    {
+      "title": "Product 1",
+      "price": "1300",
+      "image": "images/1.png",
+      "by" : "Picaso" 
+    },
+    {
+      "title": "Product 2",
+      "price": "1700",
+      "image": "images/2.png",
+      "by" : "Van Gogh" 
+    },
+    {
+      "title": "Product 3",
+      "price": "1300",
+      "image": "images/3.jpg",
+      "by" : "Leonardo da Vinci" 
+    },
+    {
+      "title": "Product 4",
+      "price": "1300",
+      "image": "images/4.png",
+      "by" : "Michelangelo" 
+    },
+    {
+      "title": "Product 5",
+      "price": "1200",
+      "image": "images/5.jpg",
+      "by" : "Rembrandt" 
+    },
+    {
+      "title": "Product 6",
+      "price": "1000",
+      "image": "images/6.jpg",
+      "by" : "Claude Monet" 
+    }
+  ],
+  "AboutUs": {
+    "Title": "About Us",
+    "Description": "Welcome to our shop. We Sell multiple stuff. We hope u enjoy."
+  },
+  "ContactUs": {
+    "Title": "Contact Us",
+    "Phone": "09121111111",
+    "Address": "Tehran , Street 1 , NUmber 1",
+    "Email": "Email.gmail.com"
+  }
+}
