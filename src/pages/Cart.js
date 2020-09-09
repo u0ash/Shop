@@ -8,6 +8,7 @@ class Cart extends Component {
     let cartItems = JSON.parse(retrievedData);
     ++cartItems.find((i) => i.title === title).quantity;
     localStorage.setItem("cart", JSON.stringify(cartItems));
+    this.forceUpdate();
   }
 
   minus(title) {
@@ -21,6 +22,7 @@ class Cart extends Component {
 
     console.log(cartItems);
     localStorage.setItem("cart", JSON.stringify(cartItems));
+    this.forceUpdate();
   }
 
   render() {
@@ -49,11 +51,12 @@ class Cart extends Component {
                   <div>{item.price}</div>
                   <div>{item.quantity}</div>
                   <div className="change-qty">
-                    <a
+                    {/* <a
                       onClick={() => {
                         this.minus(item.title);
                       }}
-                      href=""
+
+                      href="javascript:void(0);"
                     >
                       <img src="images/minus.svg" alt="" />
                     </a>
@@ -62,10 +65,24 @@ class Cart extends Component {
                       onClick={() => {
                         this.add(item.title);
                       }}
-                      href=""
+                      href="javascript:void(0);"
                     >
                       <img src="images/plus.svg" alt="" />
-                    </a>
+                    </a> */}
+                    <img
+                      onClick={() => {
+                        this.minus(item.title);
+                      }}
+                      src="images/minus.svg"
+                      alt=""
+                    />
+                    <img
+                      onClick={() => {
+                        this.add(item.title);
+                      }}
+                      src="images/plus.svg"
+                      alt=""
+                    />
                   </div>
                   <div>{item.quantity * item.price}</div>
                 </div>

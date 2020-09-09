@@ -1,37 +1,37 @@
 {
   "products": [
     {
-      "title": "Product 1",
+      "title": " Guernica",
       "price": "1300",
       "image": "images/1.png",
       "by" : "Picaso" 
     },
     {
-      "title": "Product 2",
+      "title": "The Starry Night",
       "price": "1700",
       "image": "images/2.png",
       "by" : "Van Gogh" 
     },
     {
-      "title": "Product 3",
+      "title": "Mona Lisa",
       "price": "1300",
       "image": "images/3.jpg",
       "by" : "Leonardo da Vinci" 
     },
     {
-      "title": "Product 4",
+      "title": "Doni Tondo",
       "price": "1300",
       "image": "images/4.png",
       "by" : "Michelangelo" 
     },
     {
-      "title": "Product 5",
+      "title": "The Night Watch",
       "price": "1200",
       "image": "images/5.jpg",
       "by" : "Rembrandt" 
     },
     {
-      "title": "Product 6",
+      "title": "Les Coquelicots",
       "price": "1000",
       "image": "images/6.jpg",
       "by" : "Claude Monet" 

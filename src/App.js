@@ -1,4 +1,4 @@
-import React, { useState, Component } from "react";
+import React, { Component } from "react";
 import About from "./pages/About";
 import Home from "./pages/Home";
 import ContactUs from "./pages/ContactUs";
@@ -21,8 +21,8 @@ class App extends Component {
     let item = { ...product, quantity: 1 };
 
     //duplicate products
-    if (cart.some((i) => i.title == product.title)) {
-      cart.find((i) => i.title == product.title).quantity++;
+    if (cart.some((i) => i.title === product.title)) {
+      cart.find((i) => i.title === product.title).quantity++;
     } else {
       cart.push(item);
     }
@@ -35,6 +35,10 @@ class App extends Component {
 
     localStorage.setItem("cart", JSON.stringify(cart));
   };
+
+  componentWillUnmount(){
+    localStorage.removeItem("cart");
+  }
 
   render() {
     return (
